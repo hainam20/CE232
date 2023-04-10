@@ -1,0 +1,97 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj 
+ccache C:\esp\tools\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DLV_CONF_INCLUDE_SIMPLE -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DUNITY_INCLUDE_CONFIG_H -IC:/Users/Asus/ESPIDF_I2C/build/config -IC:/Users/Asus/ESPIDF_I2C/main -IC:/esp/esp-idf/components/newlib/platform_include -IC:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/esp/esp-idf/components/freertos/esp_additions/include/freertos -IC:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/esp/esp-idf/components/freertos/esp_additions/include -IC:/esp/esp-idf/components/esp_hw_support/include -IC:/esp/esp-idf/components/esp_hw_support/include/soc -IC:/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -IC:/esp/esp-idf/components/esp_hw_support/port/esp32/. -IC:/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -IC:/esp/esp-idf/components/heap/include -IC:/esp/esp-idf/components/log/include -IC:/esp/esp-idf/components/soc/include -IC:/esp/esp-idf/components/soc/esp32/. -IC:/esp/esp-idf/components/soc/esp32/include -IC:/esp/esp-idf/components/hal/esp32/include -IC:/esp/esp-idf/components/hal/include -IC:/esp/esp-idf/components/hal/platform_port/include -IC:/esp/esp-idf/components/esp_rom/include -IC:/esp/esp-idf/components/esp_rom/include/esp32 -IC:/esp/esp-idf/components/esp_rom/esp32 -IC:/esp/esp-idf/components/esp_common/include -IC:/esp/esp-idf/components/esp_system/include -IC:/esp/esp-idf/components/esp_system/port/soc -IC:/esp/esp-idf/components/esp_system/port/include/private -IC:/esp/esp-idf/components/xtensa/include -IC:/esp/esp-idf/components/xtensa/esp32/include -IC:/esp/esp-idf/components/lwip/include -IC:/esp/esp-idf/components/lwip/include/apps -IC:/esp/esp-idf/components/lwip/include/apps/sntp -IC:/esp/esp-idf/components/lwip/lwip/src/include -IC:/esp/esp-idf/components/lwip/port/esp32/include -IC:/esp/esp-idf/components/lwip/port/esp32/include/arch -IC:/Users/Asus/ESPIDF_I2C/managed_components/lvgl__lvgl -IC:/Users/Asus/ESPIDF_I2C/managed_components/lvgl__lvgl/src -IC:/Users/Asus/ESPIDF_I2C/managed_components -IC:/esp/esp-idf/components/esp_ringbuf/include -IC:/esp/esp-idf/components/efuse/include -IC:/esp/esp-idf/components/efuse/esp32/include -IC:/esp/esp-idf/components/driver/include -IC:/esp/esp-idf/components/driver/deprecated -IC:/esp/esp-idf/components/driver/esp32/include -IC:/esp/esp-idf/components/esp_pm/include -IC:/esp/esp-idf/components/mbedtls/port/include -IC:/esp/esp-idf/components/mbedtls/mbedtls/include -IC:/esp/esp-idf/components/mbedtls/mbedtls/library -IC:/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -IC:/esp/esp-idf/components/esp_app_format/include -IC:/esp/esp-idf/components/bootloader_support/include -IC:/esp/esp-idf/components/bootloader_support/bootloader_flash/include -IC:/esp/esp-idf/components/esp_partition/include -IC:/esp/esp-idf/components/app_update/include -IC:/esp/esp-idf/components/spi_flash/include -IC:/esp/esp-idf/components/pthread/include -IC:/esp/esp-idf/components/esp_timer/include -IC:/esp/esp-idf/components/app_trace/include -IC:/esp/esp-idf/components/esp_event/include -IC:/esp/esp-idf/components/nvs_flash/include -IC:/esp/esp-idf/components/esp_phy/include -IC:/esp/esp-idf/components/esp_phy/esp32/include -IC:/esp/esp-idf/components/vfs/include -IC:/esp/esp-idf/components/esp_netif/include -IC:/esp/esp-idf/components/wpa_supplicant/include -IC:/esp/esp-idf/components/wpa_supplicant/port/include -IC:/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -IC:/esp/esp-idf/components/esp_wifi/include -IC:/esp/esp-idf/components/unity/include -IC:/esp/esp-idf/components/unity/unity/src -IC:/esp/esp-idf/components/cmock/CMock/src -IC:/esp/esp-idf/components/console -IC:/esp/esp-idf/components/http_parser -IC:/esp/esp-idf/components/esp-tls -IC:/esp/esp-idf/components/esp-tls/esp-tls-crypto -IC:/esp/esp-idf/components/esp_adc/include -IC:/esp/esp-idf/components/esp_adc/interface -IC:/esp/esp-idf/components/esp_adc/esp32/include -IC:/esp/esp-idf/components/esp_adc/deprecated/include -IC:/esp/esp-idf/components/esp_eth/include -IC:/esp/esp-idf/components/esp_gdbstub/include -IC:/esp/esp-idf/components/esp_gdbstub/xtensa -IC:/esp/esp-idf/components/esp_gdbstub/esp32 -IC:/esp/esp-idf/components/esp_hid/include -IC:/esp/esp-idf/components/tcp_transport/include -IC:/esp/esp-idf/components/esp_http_client/include -IC:/esp/esp-idf/components/esp_http_server/include -IC:/esp/esp-idf/components/esp_https_ota/include -IC:/esp/esp-idf/components/esp_lcd/include -IC:/esp/esp-idf/components/esp_lcd/interface -IC:/esp/esp-idf/components/protobuf-c/protobuf-c -IC:/esp/esp-idf/components/protocomm/include/common -IC:/esp/esp-idf/components/protocomm/include/security -IC:/esp/esp-idf/components/protocomm/include/transports -IC:/esp/esp-idf/components/esp_local_ctrl/include -IC:/esp/esp-idf/components/esp_psram/include -IC:/esp/esp-idf/components/espcoredump/include -IC:/esp/esp-idf/components/espcoredump/include/port/xtensa -IC:/esp/esp-idf/components/wear_levelling/include -IC:/esp/esp-idf/components/sdmmc/include -IC:/esp/esp-idf/components/fatfs/diskio -IC:/esp/esp-idf/components/fatfs/vfs -IC:/esp/esp-idf/components/fatfs/src -IC:/esp/esp-idf/components/idf_test/include -IC:/esp/esp-idf/components/idf_test/include/esp32 -IC:/esp/esp-idf/components/ieee802154/include -IC:/esp/esp-idf/components/json/cJSON -IC:/esp/esp-idf/components/mqtt/esp-mqtt/include -IC:/esp/esp-idf/components/perfmon/include -IC:/esp/esp-idf/components/spiffs/include -IC:/esp/esp-idf/components/ulp/ulp_common/include -IC:/esp/esp-idf/components/ulp/ulp_common/include/esp32 -IC:/esp/esp-idf/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=C:/Users/Asus/ESPIDF_I2C=. -fmacro-prefix-map=C:/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.1-397-g3050ea656f-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\i2c_example_main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj -c C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c: In function 'task_ssd1306_display_logo_2':
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:68:5: error: unknown type name 'i2c_cmd_handle_t'
+   68 |     i2c_cmd_handle_t cmd;
+      |     ^~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:70:5: error: unknown type name 'uint8_t'
+   70 |     uint8_t cur_page = 0;
+      |     ^~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:1:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+  +++ |+#include <stdint.h>
+    1 | const unsigned char logo_uit_bits[] = {
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:72:11: error: implicit declaration of function 'i2c_cmd_link_create' [-Werror=implicit-function-declaration]
+   72 |     cmd = i2c_cmd_link_create();
+      |           ^~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:73:5: error: implicit declaration of function 'i2c_master_start' [-Werror=implicit-function-declaration]
+   73 |     i2c_master_start(cmd);
+      |     ^~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:74:5: error: implicit declaration of function 'i2c_master_write_byte' [-Werror=implicit-function-declaration]
+   74 |     i2c_master_write_byte(cmd, (OLED_I2C_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:74:33: error: 'OLED_I2C_ADDRESS' undeclared (first use in this function)
+   74 |     i2c_master_write_byte(cmd, (OLED_I2C_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+      |                                 ^~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:74:33: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:74:58: error: 'I2C_MASTER_WRITE' undeclared (first use in this function)
+   74 |     i2c_master_write_byte(cmd, (OLED_I2C_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+      |                                                          ^~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:74:76: error: 'true' undeclared (first use in this function)
+   74 |     i2c_master_write_byte(cmd, (OLED_I2C_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+      |                                                                            ^~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:1:1: note: 'true' is defined in header '<stdbool.h>'; did you forget to '#include <stdbool.h>'?
+  +++ |+#include <stdbool.h>
+    1 | const unsigned char logo_uit_bits[] = {
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:76:32: error: 'OLED_CONTROL_BYTE_CMD_STREAM' undeclared (first use in this function)
+   76 |     i2c_master_write_byte(cmd, OLED_CONTROL_BYTE_CMD_STREAM, true);
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:81:5: error: implicit declaration of function 'i2c_master_stop' [-Werror=implicit-function-declaration]
+   81 |     i2c_master_stop(cmd);
+      |     ^~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:82:5: error: implicit declaration of function 'i2c_master_cmd_begin' [-Werror=implicit-function-declaration]
+   82 |     i2c_master_cmd_begin(I2C_NUM_0, cmd, 10/portTICK_PERIOD_MS);
+      |     ^~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:82:26: error: 'I2C_NUM_0' undeclared (first use in this function)
+   82 |     i2c_master_cmd_begin(I2C_NUM_0, cmd, 10/portTICK_PERIOD_MS);
+      |                          ^~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:82:45: error: 'portTICK_PERIOD_MS' undeclared (first use in this function)
+   82 |     i2c_master_cmd_begin(I2C_NUM_0, cmd, 10/portTICK_PERIOD_MS);
+      |                                             ^~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:83:5: error: implicit declaration of function 'i2c_cmd_link_delete' [-Werror=implicit-function-declaration]
+   83 |     i2c_cmd_link_delete(cmd);
+      |     ^~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:85:10: error: unknown type name 'uint8_t'
+   85 |     for (uint8_t page = 0; page < 8; page++) {
+      |          ^~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:85:10: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:89:36: error: 'OLED_CONTROL_BYTE_CMD_SINGLE' undeclared (first use in this function)
+   89 |         i2c_master_write_byte(cmd, OLED_CONTROL_BYTE_CMD_SINGLE, true);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:92:36: error: 'OLED_CONTROL_BYTE_DATA_STREAM' undeclared (first use in this function)
+   92 |         i2c_master_write_byte(cmd, OLED_CONTROL_BYTE_DATA_STREAM, true);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:93:9: error: implicit declaration of function 'i2c_master_write' [-Werror=implicit-function-declaration]
+   93 |         i2c_master_write(cmd, &arg_text[page * 128], 128, true);
+      |         ^~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:93:40: warning: dereferencing 'void *' pointer
+   93 |         i2c_master_write(cmd, &arg_text[page * 128], 128, true);
+      |                                        ^
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:100:5: error: implicit declaration of function 'vTaskDelete' [-Werror=implicit-function-declaration]
+  100 |     vTaskDelete(NULL);
+      |     ^~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:100:17: error: 'NULL' undeclared (first use in this function)
+  100 |     vTaskDelete(NULL);
+      |                 ^~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:1:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+  +++ |+#include <stddef.h>
+    1 | const unsigned char logo_uit_bits[] = {
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c: In function 'app_main':
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:104:9: error: implicit declaration of function 'i2c_master_init' [-Werror=implicit-function-declaration]
+  104 |         i2c_master_init();
+      |         ^~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:105:5: error: implicit declaration of function 'ssd1306_init' [-Werror=implicit-function-declaration]
+  105 |     ssd1306_init();
+      |     ^~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:106:9: error: implicit declaration of function 'xTaskCreate' [-Werror=implicit-function-declaration]
+  106 |         xTaskCreate(task_ssd1306_display_logo_2, "ssd1306_display_logo", 4096, logo_uit_bits, 5, NULL);
+      |         ^~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:106:98: error: 'NULL' undeclared (first use in this function)
+  106 |         xTaskCreate(task_ssd1306_display_logo_2, "ssd1306_display_logo", 4096, logo_uit_bits, 5, NULL);
+      |                                                                                                  ^~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:106:98: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+cc1.exe: some warnings being treated as errors
+[2/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Asus\ESPIDF_I2C\build\bootloader\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Asus/ESPIDF_I2C/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+ninja: build stopped: subcommand failed.

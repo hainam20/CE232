@@ -1,0 +1,1 @@
+ninja: error: 'C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c', needed by 'esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj', missing and no known rule to make it

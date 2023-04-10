@@ -1,0 +1,32 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Asus\ESPIDF_I2C\build\bootloader\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Asus/ESPIDF_I2C/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c: In function 'i2c_master_init':
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:88:9: warning: unused variable 'i2c_master_port' [-Wunused-variable]
+   88 |     int i2c_master_port = I2C_MASTER_NUM;
+      |         ^~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c: In function 'app_main':
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:321:21: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  321 |         xTaskCreate(&task_ssd1306_display_image,"ssd1306_display_logo", 4096, myBitmap, 5, NULL);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                     |
+      |                     void (*)(uint8_t *) {aka void (*)(unsigned char *)}
+In file included from C:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h:48,
+                 from C:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:41,
+                 from C:/esp/esp-idf/components/driver/include/driver/i2c.h:18,
+                 from C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:21:
+C:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:444:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(uint8_t *)' {aka 'void (*)(unsigned char *)'}
+  444 |                             TaskFunction_t pvTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable ESPIDF_I2C.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/Asus/ESPIDF_I2C/build/ESPIDF_I2C.bin
+[7/7] cmd.exe /C "cd /D C:\Users\Asus\ESPIDF_I2C\build\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/Asus/ESPIDF_I2C/build/partition_table/partition-table.bin C:/Users/Asus/ESPIDF_I2C/build/ESPIDF_I2C.bin"
+ESPIDF_I2C.bin binary size 0x31720 bytes. Smallest app partition is 0x100000 bytes. 0xce8e0 bytes (81%) free.

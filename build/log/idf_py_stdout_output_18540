@@ -1,0 +1,33 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/i2c_example_main.c.obj
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:214:13: warning: 'disp_buf' defined but not used [-Wunused-function]
+  214 | static void disp_buf(uint8_t *buf, int len)
+      |             ^~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:192:18: warning: 'i2c_slave_init' defined but not used [-Wunused-function]
+  192 | static esp_err_t i2c_slave_init(void)
+      |                  ^~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:169:18: warning: 'i2c_master_init' defined but not used [-Wunused-function]
+  169 | static esp_err_t i2c_master_init(void)
+      |                  ^~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:149:18: warning: 'i2c_SSD1306_write_cmd' defined but not used [-Wunused-function]
+  149 | static esp_err_t i2c_SSD1306_write_cmd(i2c_port_t i2c_num, uint8_t *data, uint16_t size)
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:133:18: warning: 'i2c_SSD1306_WRITE_DATA' defined but not used [-Wunused-function]
+  133 | static esp_err_t i2c_SSD1306_WRITE_DATA(i2c_port_t i2c_num, uint8_t *data, uint16_t size)
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Asus/ESPIDF_I2C/main/i2c_example_main.c:26:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   26 | static const char *TAG = "i2c-example";
+      |                    ^~~
+[2/9] Linking C static library esp-idf\main\libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Asus\ESPIDF_I2C\build\bootloader\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Asus/ESPIDF_I2C/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable ESPIDF_I2C.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/Asus/ESPIDF_I2C/build/ESPIDF_I2C.bin
+[7/7] cmd.exe /C "cd /D C:\Users\Asus\ESPIDF_I2C\build\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/Asus/ESPIDF_I2C/build/partition_table/partition-table.bin C:/Users/Asus/ESPIDF_I2C/build/ESPIDF_I2C.bin"
+ESPIDF_I2C.bin binary size 0x2b940 bytes. Smallest app partition is 0x100000 bytes. 0xd46c0 bytes (83%) free.
